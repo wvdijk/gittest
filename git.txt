@@ -1,8 +1,27 @@
 Dit project bestaat alleen om met git en Github.com te leren werken.
 
-Ik maakte dus een lokaal project en deed toen:
+Ik maakte dus een lokaal project met
 
-   git remote add origin git@github.com:wvdijk/gittest.git
-   git push -u origin master
-   
-Voila.
+  git init
+  git add git.txt
+  git commit -m "Initial commit"
+
+En deed toen:
+
+  git remote add origin git@github.com:wvdijk/gittest.git
+  git push -u origin master
+
+(De lege repo 'gittest' had ik al op Github aangemaakt.)
+
+En toen bewerkte ik dit bestand op Github en haalde ik die laatste wijziging naar de lokale repo met:
+
+  git pull
+
+En nu ga ik deze volgende wijziging weer opslaan met:
+
+  git add [filename]
+  git commit -m "Uitleg over terugsyncen toegevoegd"
+
+En dan doe ik:
+
+  git push
