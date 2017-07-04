@@ -1,1 +1,8 @@
 Dit project bestaat alleen om met git en Github.com te leren werken.
+
+Ik maakte dus een lokaal project en deed toen:
+
+   git remote add origin git@github.com:wvdijk/gittest.git
+   git push -u origin master
+   
+Voila.
