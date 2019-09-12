@@ -25,3 +25,20 @@ En nu ga ik deze volgende wijziging weer opslaan met:
 En dan doe ik:
 
   git push
+
+
+=== Branches ===
+
+Maak een nieuwe lokale branch met
+  git checkout -b [branchname]
+
+Switch terug met
+  git checkout master
+
+Push nieuwe branch naar github met
+  git push -u origin [branchname]
+  
+Pull een nieuwe branch van github
+  git pull
+  git checkout --track origin/[branchname]
+
